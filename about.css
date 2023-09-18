@@ -1,0 +1,232 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500&family=Quicksand:wght@700&family=Roboto:ital,wght@0,100;0,300;1,700;1,900&family=Rubik:wght@800&family=Ubuntu:ital,wght@0,500;1,400&display=swap');
+
+:root{
+    --bg-color-:rgba(22, 9, 1, 0.844);
+    --light-mode-colorr-:rgba(147, 145, 163, 0.769);
+    --text-color-:rgb(255, 255, 255);
+    --shadow-color-:rgba(0, 0, 0, 0.492);
+    --nav-color-:rgb(253, 253, 253);
+    --second-text-color-:rgb(0, 0, 0);
+    --sec-nav-colo-:rgb(120, 12, 33);
+}
+.header-0{
+    height:100vh;
+    width:100%;
+    background: linear-gradient(rgba(18, 17, 17, 0.943), rgba(2, 5, 25, 0.862)),url(images/istock-174825736-webbanner.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+
+.header-1{
+    position:absolute;
+    box-sizing:border-box;
+    border-radius:2px;
+    box-shadow:2px 1px 12px;
+    width:100%;
+    
+}
+.header-1 .act{
+    position: relative;
+    left:1700px;
+    padding: 5px;
+
+}
+#capsule{
+    position: absolute;
+    left:-1670px;
+    font-size:1.6rem;
+}
+html{
+    overflow-x:hidden;
+}
+body{
+    background: var(--bg-color-);
+}
+#moon-icon{
+    display:none;
+}
+.header-2{
+    position:relative;
+    box-sizing:border-box;
+    box-shadow: 2px 1px px;
+    width: 100%;
+    
+}
+.header-2 ul li{
+    display:inline-block;
+}
+.header-2 ul li a{
+    position:relative;
+    float: left;
+    left: 1350px;
+    top:55px;
+    padding: 8px;
+    color: var(--text-color-);
+    transition: 0.9s ease;
+    font-size:2rem;
+}
+.header-2 ul li a:hover{
+    transition: 0.9s ease;
+    background: var(--nav-color-);
+    box-sizing:border-box;
+    color:black;
+    border-radius:20px;
+    text-transform: uppercase;
+}
+.sticky{
+    position: fixed;
+    top:0;
+    left:-685px;
+    font-size:1rem;
+   
+    width:100%;
+}
+.intro{
+    position:absolute;
+    top: 10px;
+    font-size:2.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight:800;
+}
+.dlet{
+    color:crimson;
+    font-family: 'Poppins', sans-serif;
+    font-weight:800;
+}
+h3{
+    position: absolute;
+    color: white;
+    left:50px;
+    
+    font-size: 1.4rem;
+}
+#glass{
+    color: white;
+}
+#capsule{
+    color:white;
+}
+.slet{
+    color:white;
+}
+.Para-text{
+    position:absolute;
+    top:250px;
+    left: 20px;
+    font-size:2rem;
+}
+.Para-text h2{
+    color:white;
+}
+.Para-text h2 strong{
+    color: crimson;
+}
+.Para-text h2 .un{
+    text-decoration: underline;
+}
+.Para-text p{
+    position: absolute;
+    left: 20px;
+    color:white;
+    font-size:1.5rem;
+    
+}
+.Para-text .mlet{
+    color:crimson;
+    text-decoration: underline;
+    
+}
+.Shop-container{
+    position: absolute;
+    top:410px;
+    left:200px;
+    font-size:2rem;
+    box-sizing:border-box;
+    border-radius:2px;
+    background-color:crimson;
+    width:8.7%;
+    height:4.5%;
+}
+.Shop-container ul li{
+    display:flex;
+}
+.Shop-container ul li a{
+    color: var(--text-color-);
+    position: absolute;
+    left:5px;
+    transition: 0.5s ease;
+}
+.Shop-container ul li a:hover{
+    transition: 0.5s ease;
+    color: var(--second-text-color-);
+   
+    
+    
+  
+}
+.our-history{
+position:absolute;
+box-sizing:border-box;
+box-shadow:2px 1px 4px;
+height:80vh;
+width:100%;
+background: linear-gradient(rgba(24, 10, 59, 0.458), gray), url(images/sw2.jpg);
+background-size:cover;
+background-position:center;
+background-repeat: no-repeat;
+background-attachment: fix;
+
+}
+.our-history .abt-img{
+    top:50px;
+    position: absolute;
+}
+.our-history .abt-img img{
+    height:400px;
+    box-sizing:border-box;
+    border-radius:200px;
+    
+}
+.abt-text{
+    position: absolute;
+    left: 750px;
+    font-size:2rem;
+    color: var(--second-text-color-);
+}
+.abt-content{
+    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow:0px 2px 22px var(--shadow-color-);
+    width: 800px;
+    position: relative;
+    left:600px;
+    top:-270px;
+    color: var(--second-text-color-);
+    background: var(--light-mode-colorr-);
+    
+}
+.abt-content .abt-content-txt{
+    position: relative;
+    left:4px;
+}
+.header-3{
+   
+}
+.header3txt{
+    position: absolute;
+    top:1700px;
+    left: 710px;
+    font-size:2rem;
+    text-align: center;
+}
